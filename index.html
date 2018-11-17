@@ -1,0 +1,238 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+	<HEAD>
+<META http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+ 		<STYLE type= "text/css">
+			H1 
+			{color: lightblue; font-family:courier;background-color:gray;}
+            H2
+            {color: lightblue; font-family:courier;background-color:gray;}
+            H3
+            {color: lightblue; font-family:courier;background-color:gray;}
+            IMG
+            {style=width:500px;height:334px;}
+            VIDEO
+            {width:520px;height:440px;}
+           
+
+body
+ {background-color: lightgray;
+    font-family: Georgia, serif;}  
+{box-sizing: border-box;}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid gray;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+    right: 7%;
+}
+
+/* Place the container to the right */
+.right {
+    left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: -16px;
+}
+
+/* The actual content */
+.content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+		</STYLE>
+		<TITLE>Index</TITLE>
+ 	</HEAD>
+ <BODY>
+ 	<H1>
+		An Introduction to Caroline Rigdon
+</H1>
+<h2> New Beginnings</h2>
+<p> I spent the first eight years of my life in Lawrenceville, Georgia, in a neighborhood home that my father built for my mother. My brother, my sister, and I only had a short glimpse into suburban life before our parents uprooted our lives and moved us out to the countryside of Jackson Country, where I spent my elementary school days feeding chickens and playing by the creek. My parents envisioned spending the rest of their lives in this beautiful, enchanting farmhouse, but everything changed when the housing market crashed. </P>
+<p> After sustaining substantial financial hardships, my father, a general contractor, had no choice but to declare bankruptcy and move our family back into the confines of a neighborhood. During the nine years I lived in this home, I started middle school, joined marching band, became a disciple, and graduated high school. It was in the living room of this house that I found out I was accepted into the University of Georgia. In my bathroom I primped for proms, concerts, and parties. The kitchen is where my sister introduced her boyfriend who is now her fiance to my parents. Though our living circumstances were born of pain, they still brought immeasurable moments of light into our lives. </p>
+<p> In December of 2018, my parents were finally in a place of financial stability to move back onto a plot of land and design their dream house. They now reside there with my 15 year old brother and one year old golden retriever, Gus. Throughout my childhood, I was never once under the impression that everything was not going to be okay. My parents have unfailingly demonstrated faith in the Lord and faith in each other through my entire life, and it has made all the difference in the person I am today.</p> 
+<img src="C:\Users\Admin\Downloads\IMG_1434.JPG" alt="My Family"> 
+<h5>From left to right: My dad, my mom, my sister, my sister's fiancé, me, and my brother</h5> 
+
+<h2>A Woman On A Mission</h2>
+<p> In December of 2016, I went on my first mission trip to Nicaragua. There, a team of 30 other Americans and I planted a summer camp in which children from ages 9-18 came from across northern Latin America to learn about the love of God and the spirit of  
+<A href= "https://www.campswamp.com/about/vision/">Camp Swamp</a>. We trained a team of Nicaraguans on how to successfully run a camp that has a lasting, positive impact on campers and counselors alike. One year later in 2017 I returned as a camp counselor for the third and final year of training for the Nicaraguans. In May of 2018, I departed on a flight to Cambodia, where we planted a camp using the same training implimented in Nicaragua. Below is a video I shot and edited to document my time there. </p> 
+<video controls>
+  <source src="C:\Users\Admin\Pictures\2018-05-26\RFUG5331.MOV"> 
+  </video>
+<h2> My Favorite Scriptures On:</h2>
+<table border=1>
+<tr>
+<th>Loving Others</th><th>Encouragment</th><th>Patience</th><th>Comfort</th><th>Worship</th>
+</tr>
+<tr>
+<td>Ephesians 5:1-2</td><td>Hebrews 3:13</td><td>Proverbs 15:18</td><td>Job 11:13-19</td><td>Ephesians 5:15-20</td>
+<tr><td>Philippians 2:3-4</td><td>1 Thessalonians 5:11</td><td>Romans 12:12</td><td>1 John 4:4-5</td><td>Psalm 104:31-34</td> </table>
+<h2>Important Life Events</h2>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h3>1999</h3>
+      <p>On June 23rd I was born in Lawreceville, GA to parents Susan and Chuck Rigdon, named Caroline Leslie Rigdon. </p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h3>2002</h3>
+      <p>My brother was born on December 16th and named Wesley David Rigdon.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h3>2008</h3>
+      <p>My family moved from Lawreceville to Hoschton, GA.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h3>2011</h3>
+      <p>Relocated to a neighborhood in Hoschton, GA.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h3>2013</h3>
+      <p>Joined high school marching band. Played bass drum for the next four years.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h3>2015</h3>
+      <p>My sister, Jeana Rose, graduated high school.</p>
+    </div>
+  </div>
+   <div class="container left">
+    <div class="content">
+      <h3>2016</h3>
+      <p>On June 12th I was baptized and made Jesus Lord of my life. Later in July I went out of the country for the first time and spent three days in Greece and six in Italy. Later that December I went to Nicaragua for 11 days on a mission trip.</p>
+    </div>
+</div>
+ <div class="container right">
+    <div class="content">
+      <h3>2017</h3>
+      <p>I was accepted into the University of Georgia where I attended college that fall. I graduated high school in May. I got my first paid job as the head of the work crew at an eight week long summer camp.</p>
+    </div>
+    </div>
+     <div class="container left">
+    <div class="content">
+      <h3>2018</h3>
+      <p>I secured a paid position as a Resident Assistant in Brumby Hall for 2018-2019. I returned to the summer camp where I worked the previous summer once again as the head of the work crew. On June 24th I went skydiving for the first time. In October I changed my major from Business Management to Public Relations.</p>
+    </div>
+
+<audio controls>
+  <source src="C:\Users\Admin\Downloads\Simplicity.mp3">
+  </audio>
+ </BODY>
+</HTML>
